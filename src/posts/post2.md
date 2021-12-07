@@ -1,11 +1,11 @@
 ---
-title: Путешествие на Кольский полуостров 2 
+title: Фотография 2
 category: travel
 url: travel-to-kola-2
 image: ../images/gatsby-astronaut.png
 ---
 
-# Поездка на Кольский 2
+# Фотография 2
 
 **Contrary to popular belief 2**, Lorem Ipsum is not simply random text.
 It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.
