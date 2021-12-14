@@ -6,6 +6,64 @@ body {
   font-family: $font-roboto;
 }
 h1 {
-  font-size: 3rem;
+  margin-top: 0;
+  margin-bottom: 2rem;
+  font-size: 2rem;
+  line-height: 2.4rem;
   font-family: $font-inter;
+  @media screen and (min-width: 576px) {
+    margin-bottom: 2.5rem;
+    font-size: 2.5rem;
+    line-height: 3rem;
+  }
+  @media screen and (min-width: 768px) {
+    font-size: 3rem;
+    line-height: 3.6rem;
+  }
+  @media screen and (min-width: 1200px) {
+    margin-bottom: 3rem;
+    font-size: 4rem;
+    line-height: 4.8rem;
+  }
+}
+h2 {
+  margin-top: 0;
+  margin-bottom: 1.5rem;
+  font-size: 1.5rem;
+  line-height: 1.8rem;
+  font-family: $font-inter;
+  @media screen and (min-width: 576px) {
+    margin-bottom: 2rem;
+    font-size: 2rem;
+    line-height: 2.4rem;
+  }
+  @media screen and (min-width: 768px) {
+    font-size: 2.5rem;
+    line-height: 3rem;
+  }
+  @media screen and (min-width: 1200px) {
+    margin-bottom: 2rem;
+    font-size: 3rem;
+    line-height: 3.6rem;
+  }
+}
+h3 {
+  margin-top: 0;
+  margin-bottom: 1rem;
+  font-size: 1.125rem;
+  line-height: 1.35rem;
+  font-family: $font-inter;
+  @media screen and (min-width: 576px) {
+    margin-bottom: 1.5rem;
+    font-size: 1.5rem;
+    line-height: 1.8rem;
+  }
+  @media screen and (min-width: 768px) {
+    font-size: 2rem;
+    line-height: 2.4rem;
+  }
+  @media screen and (min-width: 1200px) {
+    font-size: 2.5rem;
+    line-height: 3rem;
+  }
 }

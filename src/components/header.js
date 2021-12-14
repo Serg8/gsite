@@ -11,7 +11,7 @@ return (
     }}
   >
     <div>
-      <h1 style={{ margin: 0 }}>
+      <>
         <Link
           to="/"
           style={{
@@ -22,7 +22,7 @@ return (
           {siteTitle}
           {/*<img src={icon} alt={"G site img"} />*/}
         </Link>
-      </h1>
+      </>
     </div>
   </header>
 )}
