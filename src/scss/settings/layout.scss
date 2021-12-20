@@ -1,7 +1,5 @@
-.footer {
-  padding-top: 0.5rem;
-  padding-bottom: 0.5rem;
-  text-align: center;
-  background-color: $gray;
-  color: $white;
+div#gatsby-focus-wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
