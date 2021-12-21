@@ -6,7 +6,7 @@ const Header = ({ siteTitle }) => {
 
   return (
     <header className='header'>
-      <div>
+      <div className='container'>
         <>
           <Link to="/" >
             {siteTitle}

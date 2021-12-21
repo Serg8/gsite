@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `Choose your picture`,
+    title: `Pictures`,
     description: `description text`,
     author: `@gatsbyjs`,
     siteUrl: `https://gatsbystarterdefaultsource.gatsbyjs.io/`,

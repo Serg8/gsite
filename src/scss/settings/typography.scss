@@ -5,6 +5,9 @@ body {
   font-size: 1rem;
   font-family: $font-roboto;
 }
+* {
+  box-sizing: border-box;
+}
 h1, .like-h1 {
   margin-top: 0;
   margin-bottom: 2rem;
@@ -73,4 +76,11 @@ p {
   &:last-child {
     margin-bottom: 0;
   }
+}
+
+.container {
+  width: 100%;
+  max-width: 1920px;
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
