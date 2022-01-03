@@ -8,9 +8,10 @@ const Header = ({ siteTitle }) => {
     <header className='header'>
       <div className='container'>
         <>
-          <Link to="/" >
-            {siteTitle}
-          </Link>
+          Logo
+          <nav>
+            <Link to="/" >{siteTitle}</Link>
+          </nav>
         </>
       </div>
     </header>
