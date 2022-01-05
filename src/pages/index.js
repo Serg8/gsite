@@ -9,13 +9,8 @@ const IndexPage = ({data}) => {
   const { nodes } = data.allMarkdownRemark;
   return (
   <Layout>
-    <Seo title="Home" />
+    <Seo lang="ru" title="Home" />
     <h1>Nature pictures</h1>
-    <h2>Nature pictures</h2>
-    <div>
-      <p>paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph </p>
-      <p>paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph </p>
-    </div>
 
     {/*<p>*/}
     {/*  <Link to="/page-2/">Go to page 2</Link> <br />*/}
@@ -28,10 +23,10 @@ const IndexPage = ({data}) => {
         const {category, title, url, image} = post.frontmatter;
         const img = getImage(image);
         return (
-          <div key={post.id} className="post">
+          <section key={post.id} className="post">
             <GatsbyImage alt={title} image={img} />
             <Link to={`/${category}/${url}`} >{title}</Link>
-          </div>
+          </section>
         )
       })}
     </div>
