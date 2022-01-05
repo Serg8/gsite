@@ -12,7 +12,6 @@ const IndexPage = ({data}) => {
     <Seo title="Home" />
     <h1>Nature pictures</h1>
     <h2>Nature pictures</h2>
-    <h3>Nature pictures</h3>
     <div>
       <p>paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph </p>
       <p>paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph </p>
