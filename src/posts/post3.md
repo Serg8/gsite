@@ -2,7 +2,7 @@
 title: Фотография 3 
 category: travel
 url: travel-to-kola-3
-image: ../images/gatsby-astronaut.png
+image: ../images/forest-2021/in-the-forest-3-min.jpg
 ---
 
 # Фотография 3

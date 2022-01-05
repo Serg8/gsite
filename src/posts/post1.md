@@ -1,8 +1,8 @@
 ---
-title: Фотография 1
+title: В лесу
 category: travel
 url: travel-to-kola
-image: ../images/gatsby-astronaut.png
+image: ../images/forest-2021/in-the-forest-min.jpg
 ---
 
 # Фотография 1
