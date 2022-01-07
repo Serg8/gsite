@@ -4,7 +4,7 @@ import { GatsbyImage, getImage } from "gatsby-plugin-image"
 import Layout from "../components/layout"
 import Seo from "../components/seo"
 
-const Post = ({data}) => {
+const Photo = ({data}) => {
 
   const { html } = data.markdownRemark;
   const { title, image } = data.markdownRemark.frontmatter;
@@ -24,7 +24,7 @@ const Post = ({data}) => {
   )
 }
 
-export default Post
+export default Photo
 
 export const query = graphql`
   query PostQuery($url: String) {
