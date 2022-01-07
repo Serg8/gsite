@@ -18,12 +18,12 @@ const IndexPage = ({data}) => {
     {/*  <Link to="/using-ssr">Go to "Using SSR"</Link> <br />*/}
     {/*  <Link to="/using-dsg">Go to "Using DSG"</Link>*/}
     {/*</p>*/}
-    <div className="posts">
+    <div className="cards">
       {nodes.map(post => {
         const {category, title, url, image} = post.frontmatter;
         const img = getImage(image);
         return (
-          <section key={post.id} className="post">
+          <section key={post.id} className="card">
             <GatsbyImage alt={title} image={img} />
             <Link to={`/${category}/${url}`} >{title}</Link>
           </section>

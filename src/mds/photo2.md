@@ -1,13 +1,13 @@
 ---
-title: Фотография 5 
+title: В лесу 2
 category: forest
-url: forest-2021
-image: ../images/forest-2021/in-the-forest-5-min.jpg
+url: forest-2021-2
+image: ../images/forest-2021/in-the-forest-2-min.jpg
 ---
 
-# Фотография 5
+# В лесу 2
 
-**Contrary to popular belief 5**, Lorem Ipsum is not simply random text.
+**Contrary to popular belief 2**, Lorem Ipsum is not simply random text.
 It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.
 Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia,
 looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage,

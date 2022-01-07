@@ -1,11 +1,11 @@
 ---
-title: Фотография 4 
-category: travel
-url: travel-to-kola-4
+title: В лесу 4 
+category: forest
+url: forest-2021-4
 image: ../images/forest-2021/in-the-forest-4-min.jpg
 ---
 
-# Фотография 4
+# В лесу 4
 
 **Contrary to popular belief 4**, Lorem Ipsum is not simply random text.
 It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.
