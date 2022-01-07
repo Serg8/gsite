@@ -10,9 +10,10 @@ exports.createPages = async ({ graphql, actions }) => {
   // })
 
   const { data } = await graphql(`
-      query Posts {
+      query Photos {
         allMarkdownRemark {
           nodes {
+            id
             frontmatter {
               category
               url
@@ -23,11 +24,12 @@ exports.createPages = async ({ graphql, actions }) => {
   `)
 
   data.allMarkdownRemark.nodes.forEach(node => {
-    const { url, category } = node.frontmatter;
+    const { url } = node.frontmatter;
+    let id = node.id;
     actions.createPage({
       path: `/${url}`,
       component: path.resolve('./src/templates/photo.js'),
-      context: { url },
+      context: { id },
     });
   });
 }

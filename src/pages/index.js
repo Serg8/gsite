@@ -11,13 +11,6 @@ const IndexPage = ({data}) => {
   <Layout>
     <Seo lang="ru" title="Home" />
     <h1>Nature pictures</h1>
-
-    {/*<p>*/}
-    {/*  <Link to="/page-2/">Go to page 2</Link> <br />*/}
-    {/*  <Link to="/using-typescript/">Go to "Using TypeScript"</Link> <br />*/}
-    {/*  <Link to="/using-ssr">Go to "Using SSR"</Link> <br />*/}
-    {/*  <Link to="/using-dsg">Go to "Using DSG"</Link>*/}
-    {/*</p>*/}
     <div className="cards">
       {nodes.map(card => {
         const {title, url, image} = card.frontmatter;
@@ -46,7 +39,7 @@ export const query = graphql`
           url
           image {
             childImageSharp {
-                gatsbyImageData(placeholder: BLURRED, formats: [AUTO, AVIF])
+                gatsbyImageData(placeholder: BLURRED, formats: [AUTO, AVIF], width: 480)
               }
             }
         }

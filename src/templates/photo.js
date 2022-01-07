@@ -27,16 +27,17 @@ const Photo = ({data}) => {
 export default Photo
 
 export const query = graphql`
-  query PostQuery($url: String) {
-    markdownRemark(frontmatter: {url: {eq: $url}}) {
+  query PhotoQuery($id: String) {
+    markdownRemark(id: {eq: $id}) {
       html
+      id
       frontmatter {
         url
         category
         title
         image {
           childImageSharp {
-            gatsbyImageData(width: 200)
+            gatsbyImageData(width: 880)
           }
         }
       }
