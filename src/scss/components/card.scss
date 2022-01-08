@@ -5,8 +5,23 @@
   overflow: hidden;
   &__title {
     position: absolute;
+    bottom: -100%;
+    left: 0;
+    right: 0;
     margin: 0;
+    padding: 0.6rem 0.5rem 0.25rem;
+    color: $white;
+    font-weight: normal;
+    font-size: 1rem;
+    background: $dark;
+    background: linear-gradient(0deg, rgba($dark,0.4) 50%, rgba($dark,0) 100%);
     z-index: 1;
+    transition: bottom 0.3s;
+  }
+  &:hover {
+    .card__title {
+      bottom: 0;
+    }
   }
 }
 
