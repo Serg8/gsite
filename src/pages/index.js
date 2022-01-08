@@ -39,7 +39,7 @@ export const query = graphql`
           url
           image {
             childImageSharp {
-                gatsbyImageData(placeholder: BLURRED, formats: [AUTO, AVIF], width: 480)
+                gatsbyImageData(placeholder: BLURRED, formats: [AUTO, AVIF], width: 540)
               }
             }
         }

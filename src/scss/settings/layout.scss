@@ -3,3 +3,10 @@ div#gatsby-focus-wrapper {
   flex-direction: column;
   min-height: 100vh;
 }
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -0.125rem;
+  margin-right: -0.125rem;
+}
