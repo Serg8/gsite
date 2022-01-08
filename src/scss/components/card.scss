@@ -28,7 +28,7 @@
 @media (min-width: 576px) {
   .card {
     flex-grow: 1;
-    max-width: 50%;
+    max-width: calc(50% - 0.36rem);
     .gatsby-image-wrapper {
       flex-grow: 1;
       img {
