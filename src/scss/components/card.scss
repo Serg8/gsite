@@ -1,0 +1,8 @@
+.card {
+  position: relative;
+  display: inline-block;
+  &__title {
+    position: absolute;
+    z-index: 1;
+  }
+}

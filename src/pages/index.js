@@ -17,7 +17,7 @@ const IndexPage = ({data}) => {
         const img = getImage(image);
         return (
           <Link to={`/${url}`} key={card.id} className="card" >
-            {title}
+            <h3 className="card__title">{title}</h3>
             <GatsbyImage alt={title} image={img} />
           </Link>
         )
