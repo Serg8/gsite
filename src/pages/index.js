@@ -1,13 +1,18 @@
 import React, { useState, useEffect, useRef } from "react"
 import { Link, graphql } from "gatsby"
 import { GatsbyImage, getImage } from "gatsby-plugin-image"
+import useWindowSize from "../utils/useWindowSize"
 
 import Layout from "../components/layout"
 import Seo from "../components/seo"
 
 const IndexPage = ({data}) => {
   const { nodes } = data.allMarkdownRemark;
-  let portionNodes = 10;
+  let portionNodes = 20;
+  const { width } = useWindowSize();
+  if (width > 767) {
+    portionNodes = 50;
+  }
 
   // State for the list
   const [list, setList] = useState([...nodes.slice(0, portionNodes)]);
