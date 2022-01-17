@@ -3,6 +3,12 @@ title: В лесу 1
 category: forest
 url: forest-2021-1
 image: ../images/forest-2021/in-the-forest-min.jpg
+date: ''
+type_image: JPG
+image_resolution: ''
+number_of_downloads: 0
+number_of_views: ''
+keywords: 'forest '
 ---
 
 # В лесу 1
