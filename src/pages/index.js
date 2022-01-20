@@ -69,7 +69,9 @@ const IndexPage = ({data}) => {
   return (
   <Layout>
     <Seo lang="ru" title="Home" />
-    <h1>Nature pictures</h1>
+    <div className="top-line">
+      <h1>Nature pictures</h1>
+    </div>
     <div className="cards">
       {list.map(card => {
         const {title, url, image} = card.frontmatter;
