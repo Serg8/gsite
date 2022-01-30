@@ -28,7 +28,7 @@ exports.createPages = async ({ graphql, actions }) => {
     let id = node.id;
     actions.createPage({
       path: `/${url}`,
-      component: path.resolve('./src/templates/photo.js'),
+      component: path.resolve('./src/templates/nodeCard.js'),
       context: { id },
     });
   });
