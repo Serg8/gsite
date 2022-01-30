@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
-    title: `Pictures`,
-    description: `description text`,
+    title: `Free pictures`,
+    description: `description text of free pictures`,
     author: `@gatsbyjs`,
     siteUrl: `https://gatsbystarterdefaultsource.gatsbyjs.io/`,
     blog: `Graficolis`

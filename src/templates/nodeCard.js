@@ -12,7 +12,7 @@ const NodeCard = ({data}) => {
 
   return (
     <Layout>
-      <Seo title={title} />
+      <Seo lang="en" title={title} description="description of node card" />
       <div>
         <h2>{title}</h2>
         <div>

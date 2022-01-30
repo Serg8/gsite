@@ -68,7 +68,7 @@ const IndexPage = ({data}) => {
 
   return (
   <Layout>
-    <Seo lang="ru" title="Home" />
+    <Seo lang="en" title="Pictures" description="Free pictures" />
     <div className="top-line">
       <h1>Nature pictures</h1>
     </div>
